@@ -1,3 +1,70 @@
+# -------------------------------------------------------------------------
+# Flutter/Dart Artifacts
+# -------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# If you are developing a package instead of an app, you might want to 
+# uncomment the next line to ignore pubspec.lock
+# pubspec.lock
+
+# -------------------------------------------------------------------------
+# Android Specifics
+# -------------------------------------------------------------------------
+.gradle/
+/android/local.properties
+/android/key.properties
+/android/app/src/main/res/values/google-services.json
+*.bundle
+*.apk
+*.ap_
+*.aab
+
+# -------------------------------------------------------------------------
+# iOS/macOS Specifics
+# -------------------------------------------------------------------------
+**/Pods/
+**/.symlinks/
+**/doc/api/
+.generated/
+/ios/Flutter/Ephemeral.xcconfig
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/macos/Flutter/Ephemeral.xcconfig
+/macos/Flutter/Generated.xcconfig
+/macos/Flutter/flutter_export_environment.sh
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+
+# -------------------------------------------------------------------------
+# Web Specifics
+# -------------------------------------------------------------------------
+.web/
+
+# -------------------------------------------------------------------------
+# IDEs and Editors
+# -------------------------------------------------------------------------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.modules
+
+# -------------------------------------------------------------------------
+# Operating System Files
+# -------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
 # Miscellaneous
 *.class
 *.log
